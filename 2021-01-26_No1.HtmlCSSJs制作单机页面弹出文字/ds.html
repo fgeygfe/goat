@@ -40,8 +40,8 @@
                 span.style.opacity = "0"
                 span.style.transform = "translateY(-230px)"
             },1500)
-            // 清掉opacort为0的span
-            var chi = document.getElementsByClassName("span")
+            // 清掉opacity为0的span
+            var chi = document.getElementsByTagName("span")
             for(var i = 0;i<chi.length;i++){
                 if(chi[i].style.opacity === "0"){
                     document.body.removeChild(chi[i])
